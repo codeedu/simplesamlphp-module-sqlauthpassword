@@ -1,0 +1,24 @@
+{
+    "name": "codeedu/simplesamlphp-module-sqlauthpassword",
+    "description": "A simple sql auth module to simplesamlphp",
+    "type": "simplesamlphp-module",
+    "require": {
+        "simplesamlphp/composer-module-installer": "^1.1"
+    },
+    "require-dev": {
+        "simplesamlphp/simplesamlphp": "^1.17",
+        "simplesamlphp/saml2": "^3.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luiz",
+            "email": "argentinaluiz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "SimpleSAML\\Module\\sqlauthpassword\\": "lib"
+        }
+    }
+}
